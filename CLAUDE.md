@@ -21,7 +21,7 @@
 ## Standard steps
 1. Transcribe: `python3 scripts/transcribe.py raw/<file>` (word-level JSON + txt in `work/`).
 2. Cut silences and filler words using the transcript. List what was cut.
-3. Captions (Remotion): word-by-word, highlight the spoken word.
+3. Captions (Remotion): `scripts/captions.sh raw/<file> work/<file>.json 10` for a 10-second preview in `work/`; leave out the 10 for the full render in `out/`.
 4. Suggest 3 hooks for the first 3 seconds; wait for my choice.
 5. Export to `out/`.
 
