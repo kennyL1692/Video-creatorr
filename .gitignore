@@ -147,3 +147,14 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Video-creatorr media (keep folders, ignore big files)
+raw/*
+work/*
+out/*
+assets/music/*
+!raw/.gitkeep
+!work/.gitkeep
+!out/.gitkeep
+!assets/music/.gitkeep
+node_modules/
